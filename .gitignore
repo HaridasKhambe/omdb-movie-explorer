@@ -1,0 +1,20 @@
+# Java / Maven
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/*.log
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+backend/.env
+backend/.env.local
+backend/src/main/resources/application.properties
