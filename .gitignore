@@ -1,13 +1,13 @@
 # Java / Maven
-backend/target/
-backend/.idea/
-backend/*.iml
-backend/*.log
+ome-backend/target/
+ome-backend/.idea/
+ome-backend/*.iml
+ome-backend/*.log
 
 # Node / React
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
+ome-frontend/node_modules/
+ome-frontend/dist/
+ome-frontend/.vite/
 
 # OS junk
 .DS_Store
@@ -15,6 +15,7 @@ Thumbs.db
 
 # Secrets
 .env
-backend/.env
-backend/.env.local
-backend/src/main/resources/application.properties
+ome-backend/.env
+ome-backend/.env.local
+ome-backend/src/main/resources/application.properties
+

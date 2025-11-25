@@ -48,11 +48,11 @@ const MovieDetailPage = () => {
           onClick={() => navigate('/')}
           className="flex items-center space-x-2 text-primary hover:text-primary-hover mb-6"
         >
-          <ArrowLeft className="w-5 h-5" />
-          <span>Back to search</span>
+          <ArrowLeft className="w-5 h-5 cursor-pointer" />
+          <span className="text-semibold cursor-pointer">Back to search</span>
         </button>
 
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className="bg-white rounded-lg shadow-lg shadow-primary/20 border border-gray-100 overflow-hidden">
           <div className="md:flex">
             <div className="md:w-1/3 bg-gray-200">
               {movie.Poster && movie.Poster !== 'N/A' ? (

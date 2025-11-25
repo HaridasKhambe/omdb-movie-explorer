@@ -11,7 +11,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div
       onClick={handleClick}
-      className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
+      className="bg-white rounded-lg shadow-md hover:shadow-primary/50 hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer overflow-hidden border border-gray-100"
     >
       <div className="relative h-80 bg-gray-200">
         {movie.Poster && movie.Poster !== 'N/A' ? (
