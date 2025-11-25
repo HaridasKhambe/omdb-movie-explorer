@@ -145,7 +145,7 @@ Below are some of the sample outputs/screenshots of the system:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/omdb-movie-explorer.git
+git clone [https://github.com/YOUR_USERNAME/omdb-movie-explorer.git](https://github.com/HaridasKhambe/omdb-movie-explorer.git)
 cd omdb-movie-explorer/ome-backend
 ```
 
@@ -209,7 +209,7 @@ Open your browser and visit: `http://localhost:5173`
 
 ---
 
-### 👨‍💻 Developed By
+## 👨‍💻 Developed By
 **Haridas Khambe**  
 📧 [haridaskhambe2003@gmail.com](mailto:haridaskhambe2003@gmail.com)  
 
