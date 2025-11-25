@@ -222,5 +222,5 @@ I'm always open to discussions, feedback, and collaborations!
 🌐 **Portfolio:** [View Portfolio](https://haridaskhambe.github.io/react-personal-portfolio/)
 
 ⭐ If you find this project helpful, consider giving it a star on GitHub!
-
+   Thank you!
 ---
