@@ -41,6 +41,8 @@ const MovieDetailPage = () => {
 
   if (!movie) return null;
 
+  const ratings = movie.ratings || movie.Ratings || [];
+
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-6xl mx-auto">
@@ -122,19 +124,19 @@ const MovieDetailPage = () => {
                   <p className="text-gray-700">{movie.Actors}</p>
                 </div>
 
-                {movie.ratings && movie.ratings.length > 0 && (
-                  <div>
-                    <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">Ratings</h3>
-                    <div className="flex flex-wrap gap-3">
-                      {movie.ratings.map((rating, index) => (
-                        <div key={index} className="bg-gray-100 px-3 py-2 rounded">
-                          <p className="text-xs text-gray-600">{rating.Source}</p>
-                          <p className="font-semibold text-gray-900">{rating.Value}</p>
-                        </div>
-                      ))}
+                {ratings.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">Ratings</h3>
+                      <div className="flex flex-wrap gap-3">
+                        {ratings.map((rating, index) => (
+                          <div key={index} className="bg-gray-100 px-3 py-2 rounded">
+                            <p className="text-xs text-gray-600">{rating.Source}</p>
+                            <p className="font-semibold text-gray-900">{rating.Value}</p>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
+                  )}
               </div>
             </div>
           </div>
